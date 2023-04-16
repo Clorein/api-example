@@ -65,18 +65,6 @@ export class App{
       })
     this.express.use(inversifyExpress.build())
   }
-
-
-
-
-
-
-
-
-
-
-
-  
 }
 
 config();
