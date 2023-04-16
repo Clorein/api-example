@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export abstract class Identifier{
     public static readonly APP: any = Symbol.for('App')
 

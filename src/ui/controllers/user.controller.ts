@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import HttpStatus from 'http-status-codes'
-import { controller, httpDelete, httpGet, httpPatch, httpPost, request, response } from 'inversify-express-utils'
+import { controller, httpGet, httpPost, request, response } from 'inversify-express-utils'
 import { Request, Response } from 'express'
 import { inject } from 'inversify'
 import { Identifier } from '../../di/identifier'

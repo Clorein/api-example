@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Entity } from "application/domain/models/entity";
 
 export interface IEntityMapper<M extends Entity, EM> {

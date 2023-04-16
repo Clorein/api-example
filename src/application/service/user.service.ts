@@ -35,14 +35,17 @@ export class UserService implements IUserService{
         }
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     public async getById(userId: string, query: IQuery): Promise<User | undefined> {
         throw new Error('Not implemented!')
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     public async update(item: User): Promise<User | undefined> {
         throw new Error('Not implemented!')
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     public async remove(id: string): Promise<User | undefined> {
         throw new Error('Not implemented!')
     }

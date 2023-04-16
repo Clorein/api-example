@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { injectable } from "inversify";
 import { User } from "application/domain/models/user";
 import { UserEntity } from "../user.entiy";

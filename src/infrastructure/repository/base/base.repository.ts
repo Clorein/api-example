@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { injectable } from 'inversify'
 import { IRepository } from '../../../application/port/repository.interface'
 import { RepositoryException } from 'application/domain/exception/repository.exception'
