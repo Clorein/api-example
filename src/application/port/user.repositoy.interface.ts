@@ -1,0 +1,7 @@
+import { IRepository } from "./repository.interface";
+import { User } from "application/domain/models/user";
+
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface IUserRepository extends IRepository<User>{
+    
+}
