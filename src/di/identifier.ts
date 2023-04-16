@@ -17,4 +17,8 @@ export abstract class Identifier{
 
     // Mappers
     public static readonly USER_ENTITY_MAPPER: any = Symbol.for('UserEntityMapper')
+
+    // Log
+    public static readonly LOGGER: any = Symbol.for('CustomLogger')
+
 }

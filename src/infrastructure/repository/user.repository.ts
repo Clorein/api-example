@@ -5,6 +5,6 @@ import { injectable } from "inversify";
 import { BaseRepository } from "./base/base.repository";
 
 @injectable()
-export class DiagnosisRepository extends BaseRepository<User, UserEntity> implements IUserRepository {
+export class UserRepository extends BaseRepository<User, UserEntity> implements IUserRepository {
     
 }

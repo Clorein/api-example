@@ -11,7 +11,7 @@ import { IUserService } from 'application/port/user.service.interface'
 import { User } from 'application/domain/models/user'
 
 @controller('/users')
-export class UsersController {
+export class UserController {
 
     constructor(
         @inject(Identifier.USER_SERVICE) private readonly _userService: IUserService
